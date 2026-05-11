@@ -13,3 +13,5 @@ add_compile_options(-Wno-ignored-qualifiers)
 add_compile_options(-Wno-attributes)
 add_compile_options(-Wno-unused-function)
 project(lvgl_demo_v9)
+
+spiffs_create_partition_image(storage spiffs_data FLASH_IN_PROJECT)

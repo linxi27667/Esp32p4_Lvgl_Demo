@@ -4,3 +4,4 @@ components/lvgl/**
 build/
 sdkconfig
 sdkconfig.old
+spiffs_data/
